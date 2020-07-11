@@ -12,7 +12,8 @@
     "react-dom": "^16.13.1",
     "react-reveal": "^1.2.2",
     "react-scripts": "3.4.1",
-    "react-snowstorm": "0.0.3"
+    "react-snowstorm": "0.0.3",
+    "websocket-extensions": "^0.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
