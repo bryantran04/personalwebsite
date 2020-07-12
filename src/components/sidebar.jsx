@@ -17,21 +17,38 @@ export default class Sidebar extends Component {
                 </div>
 
                 <ul class="list-unstyled components">
-                    <p>Made with React :)</p>
                     <li>
-                        <a href="#">Introduction</a>
+                        <a href="#showcase">Introduction</a>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <a href="#about">About</a>
                     </li>
                     <li>
-                        <a href="#">Personal Projects</a>
+                        <a href="#projects">Projects</a>
                     </li>
-                    <a href="https://www.linkedin.com/in/bryantranva/">
-                        <img src='images/linkedin-brands.svg' style={mystyle}></img>
-                    </a>
-                </ul>
 
+
+                </ul>
+                <div className="links">
+
+
+                </div>
+                <div style={{ position: "absolute", bottom: "0", textAlign: "center", width: "100%" }}>
+                    <ul style={{ listStyleType: "none", paddingInlineStart: "0px" }}>
+                        <li>
+                            <a href="https://www.linkedin.com/in/bryantranva/">
+                                <img src='images/linkedin-brands.svg' style={mystyle}></img>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/bryantran04">
+                                <img src='images/github-square-brands.svg' style={mystyle}></img>
+                            </a>
+                        </li>
+                    </ul>
+                    <p>   Made with React :)</p>
+
+                </div>
             </nav >
 
         )

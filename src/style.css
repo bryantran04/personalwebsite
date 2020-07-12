@@ -3,6 +3,9 @@
 */
 
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+html {
+  scroll-behavior: smooth;
+}
 body {
     font-family: 'Poppins', sans-serif;
     background: #fafafa;
@@ -93,7 +96,7 @@ a:focus {
     display: block;
 }
 
-#sidebar ul li a:hover {
+#sidebar ul.list-unstyled li a:hover {
     color: #7386D5;
     background: #fff;
 }
@@ -163,7 +166,7 @@ a.article:hover {
 }
 
 #showcase {
-  background: #333 url("profile.jpg") no-repeat center center/cover;
+  background: #333 url("profilealt.jpg") no-repeat center center/cover;
   height: 100vh;
   color: #fff;
   padding: 0px;
@@ -196,13 +199,28 @@ a.article:hover {
    display: flex; 
    justify-content: flex-end;
 }
-img {
+.about-img {
     object-fit: cover;
     border-radius: 10%;
-    width: 23rem;
-    height: 18rem;
+    width: 19.1rem;
+    height: 15rem;
     margin: 0
-    
+}
+
+.project-img{
+    object-fit: cover;
+    width: 21.9rem;
+    height: 15rem;
+    margin: 0;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+
+
+.project-img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
 }
 
 .fade-in-section {
