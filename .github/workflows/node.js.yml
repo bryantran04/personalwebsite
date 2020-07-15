@@ -29,9 +29,7 @@ jobs:
       
     - name: Build
       run: CI="" npm run build
-      
-    - run: npm test --passWithNoTests
-      
+            
     - name: Deploy
       run: |
         git config --global user.name bryantran04
