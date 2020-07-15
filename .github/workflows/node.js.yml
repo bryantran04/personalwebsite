@@ -35,7 +35,7 @@ jobs:
         git config --global user.name bryantran04
         git config --global user.email bt2kg@virginia.edu
         git remote set-url origin https://${github_token}@github.com/${repository}
-        npm run deploy
+        CI="" npm run deploy
       env:
         user_name: 'github-actions[bot]'
         user_email: 'github-actions[bot]@users.noreply.github.com'
