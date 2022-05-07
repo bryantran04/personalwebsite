@@ -26,6 +26,9 @@ export default class Sidebar extends Component {
                     <li>
                         <a href="#projects">Projects</a>
                     </li>
+                    <li>
+                        <a href="documents/bryan_tran_resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+                    </li>
 
 
                 </ul>
